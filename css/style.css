@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* Estilos Header*/
+header {
+  background-color: #010101;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  text-align: center; }
+  header .container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1320px;
+    background-color: black;
+    box-shadow: 1px 1px 5px whitesmoke;
+    padding-left: 2px;
+    padding-right: 2px; }
+  header .logo {
+    margin: 0;
+    text-align: center;
+    width: 30%;
+    animation-name: logo_animado;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: initial; }
+  header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    text-align: center; }
+  header a {
+    padding: 5px 10px; }
+  header .nav__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center; }
+  header .nav__item {
+    text-align: center;
+    padding-top: 20px; }
+  header .nav-link {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none; }
+  header .nav-link:hover,
+  header .nav-link:focus {
+    color: #ff4000;
+    opacity: 0.65; }
+  header .form-control {
+    height: 50px;
+    margin-top: 10px; }
+  header button {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: black;
+    background-color: white; }
+
+/* Estilos Hero*/
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 50vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/image/fondoweb.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #hero h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+    text-align: center;
+    padding: 200 50px 10px 50px; }
+
+/*Caja video imagen*/
+.conocenos__intro {
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr; }
+  .conocenos__intro .text__conocenos {
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 35px;
+    padding: 10px; }
+  .conocenos__intro .conocenos__ps {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    .conocenos__intro .conocenos__ps .conocenos__p1 {
+      color: #ffffff;
+      font-size: 15px;
+      align-items: center;
+      justify-content: center; }
+  .conocenos__intro .conocenos__p1--2 {
+    color: orangered;
+    font-size: 20px; }
+
+.intro__yb {
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+  flex-direction: column; }
+  .intro__yb .caja__video {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 10px; }
+  .intro__yb iframe {
+    max-width: 100%;
+    max-height: 100%; }
+
+.titulo__blog {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  padding: 10px 10px;
+  font-weight: 500;
+  margin: 0; }
+
+.blog__contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #000000;
+  padding: 30px 8px; }
+  .blog__contenedor .mas__principal {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 18px 0;
+    max-width: 1320px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/entrenamiento.jpeg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10%; }
+  .blog__contenedor .titulo__blog--principal {
+    margin-top: 20px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    color: #ffffff; }
+  .blog__contenedor .blog-cont--description {
+    margin: 30px 15px 0 15px;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    padding: 10px 10px 10px 0; }
+  .blog__contenedor .mas__secundario {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 18px 0;
+    max-width: 1320px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/nutricionIFRAME.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10%; }
+  .blog__contenedor .blog-cont--description {
+    margin: 30px 15px 0 15px;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    padding: 10px 10px 10px 0; }
+  .blog__contenedor .mas__tercero {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 18px 0;
+    max-width: 1320px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/PRODUCTOS.jpeg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10%; }
+
+/* Estilos footer*/
+.footer {
+  background-color: black; }
+  .footer .footer-sm {
+    background-color: #000000;
+    color: white; }
+  .footer .col {
+    width: 100%; }
+  .footer a {
+    color: white; }
+  .footer i {
+    font-size: 1rem;
+    margin-left: 1rem; }
+  .footer .footer-sm__icons {
+    text-align: center;
+    padding: 1.5rem 0; }
+  .footer .footer-bottom {
+    padding: 1.5rem 0; }
+  .footer .footer-bottom__copyright {
+    text-align: center;
+    color: gray;
+    font-weight: 400; }
+  .footer .footer-bottom__copyright a {
+    color: #ff4000;
+    text-decoration: none; }
+  .footer .footer-bottom__copyright a:hover {
+    color: #ffffff;
+    text-decoration: underline; }
+
+/* Estilos pagina blog*/
+.contenedor__bloger {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  background-color: #000000;
+  justify-content: space-evenly;
+  margin: 10px;
+  justify-items: center; }
+  .contenedor__bloger .carta__bl {
+    display: flex;
+    padding-left: 40px; }
+  .contenedor__bloger .logo__blog {
+    width: 150px;
+    height: 150px; }
+  .contenedor__bloger .carta__p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 0px 40px 0px 0px; }
+  .contenedor__bloger .bloger__p {
+    color: #ffffff; }
+
+.blog__contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #000000;
+  padding: 30px 8px; }
+  .blog__contenedor .blog__principal {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 18px 0;
+    max-width: 1320px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/cetosis.jpeg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10%; }
+
+.blog__secundario {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 18px 0;
+  max-width: 1320px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/ayuno-intermitente_0.jpg.webp);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10%; }
+
+.blog__tercero {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 18px 0;
+  max-width: 1320px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/hidratacionweb.jpeg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10%; }
+
+.body__blog {
+  background-color: #000000; }
