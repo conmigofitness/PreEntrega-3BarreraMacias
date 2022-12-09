@@ -410,10 +410,6 @@ button {
   border-radius: 10%;
 }
 
-.body__blog {
-  background-color: #000000;
-}
-
 /*Estilos pagina servicios*/
 #hero2 {
   display: flex;
