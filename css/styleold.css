@@ -341,10 +341,6 @@ header a {
   font-weight: 500;
 }
 
-.body__blog {
-  background-color: #000000;
-}
-
 .serv__contenedor {
   display: flex;
   flex-direction: column;
