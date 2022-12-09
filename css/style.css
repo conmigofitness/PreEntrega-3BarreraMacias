@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 /* Estilos Header*/
 .logo {
@@ -11,12 +12,14 @@
   animation-name: logo_animado;
   animation-duration: 1s;
   animation-delay: 2s;
-  animation-iteration-count: initial; }
+  animation-iteration-count: initial;
+}
 
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+}
 
 nav {
   display: flex;
@@ -24,10 +27,12 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 5px;
-  text-align: center; }
+  text-align: center;
+}
 
 a {
-  padding: 5px 10px; }
+  padding: 5px 10px;
+}
 
 .nav__list {
   list-style: none;
@@ -35,25 +40,30 @@ a {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
-  text-align: center; }
+  text-align: center;
+}
 
 .nav__item {
   text-align: center;
-  padding-top: 20px; }
+  padding-top: 20px;
+}
 
 .nav-link {
   color: white;
   text-transform: uppercase;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .nav-link:hover,
 .nav-link:focus {
   color: #ff4000;
-  opacity: 0.65; }
+  opacity: 0.65;
+}
 
 .form-control {
   height: 50px;
-  margin-top: 10px; }
+  margin-top: 10px;
+}
 
 button {
   font-size: 1.5em;
@@ -64,7 +74,8 @@ button {
   border: 1px solid rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   color: black;
-  background-color: white; }
+  background-color: white;
+}
 
 /* Estilos Hero*/
 #hero {
@@ -74,25 +85,33 @@ button {
   justify-content: center;
   text-align: center;
   height: 50vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/image/fondoweb.png);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../assets/image/fondoweb.png);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover; }
-  #hero h1 {
-    font-size: 2.5em;
-    color: #ffffff;
-    text-align: center;
-    padding: 200 50px 10px 50px; }
-  #hero button {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-top: 10px;
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    color: black;
-    background-color: white; }
+  background-size: cover;
+}
+#hero h1 {
+  font-size: 2.5em;
+  color: #ffffff;
+  text-align: center;
+  padding: 200 50px 10px 50px;
+}
+#hero button {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: black;
+  background-color: white;
+}
 
 /*Caja video imagen*/
 .conocenos__intro {
@@ -101,46 +120,54 @@ button {
   align-items: center;
   padding-top: 10px;
   display: grid;
-  grid-template-rows: 1fr 1fr; }
-  .conocenos__intro .text__conocenos {
-    color: #ffffff;
-    background-color: #000000;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-weight: 500;
-    font-size: 35px;
-    padding: 10px; }
-  .conocenos__intro .conocenos__ps {
-    display: flex;
-    flex-direction: column;
-    text-align: center; }
-    .conocenos__intro .conocenos__ps .conocenos__p1 {
-      color: #ffffff;
-      font-size: 15px;
-      align-items: center;
-      justify-content: center; }
-  .conocenos__intro .conocenos__p1--2 {
-    color: orangered;
-    font-size: 20px; }
+  grid-template-rows: 1fr 1fr;
+}
+.conocenos__intro .text__conocenos {
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 35px;
+  padding: 10px;
+}
+.conocenos__intro .conocenos__ps {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.conocenos__intro .conocenos__ps .conocenos__p1 {
+  color: #ffffff;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.conocenos__intro .conocenos__p1--2 {
+  color: orangered;
+  font-size: 20px;
+}
 
 .intro__yb {
   width: 100%;
   margin: 0 auto;
   background-color: black;
   display: flex;
-  flex-direction: column; }
-  .intro__yb .caja__video {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    background-color: #000000;
-    padding: 10px 10px; }
-  .intro__yb iframe {
-    max-width: 100%;
-    max-height: 100%; }
+  flex-direction: column;
+}
+.intro__yb .caja__video {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  padding: 10px 10px;
+}
+.intro__yb iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
 
 .titulo__blog {
   background-color: #000000;
@@ -149,112 +176,146 @@ button {
   justify-content: center;
   padding: 10px 10px;
   font-weight: 500;
-  margin: 0; }
+  margin: 0;
+}
 
 .blog__contenedor {
   display: flex;
   flex-direction: column;
   gap: 10px;
   background-color: #000000;
-  padding: 30px 8px; }
-  .blog__contenedor .mas__principal {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 0 18px 0;
-    max-width: 1320px;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/entrenamiento.jpeg);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10%; }
-  .blog__contenedor .titulo__blog--principal {
-    margin-top: 20px;
-    font-size: 28px;
-    text-align: center;
-    font-weight: bold;
-    align-items: center;
-    color: #ffffff; }
-  .blog__contenedor .blog-cont--description {
-    margin: 30px 15px 0 15px;
-    color: #ffffff;
-    font-size: 13px;
-    text-align: center;
-    font-weight: bold;
-    align-items: center;
-    padding: 10px 10px 10px 0; }
-  .blog__contenedor button {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-top: 10px;
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    color: black;
-    background-color: white; }
-  .blog__contenedor .mas__secundario {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 0 18px 0;
-    max-width: 1320px;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/nutricionIFRAME.png);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10%; }
-  .blog__contenedor .blog-cont--description {
-    margin: 30px 15px 0 15px;
-    color: #ffffff;
-    font-size: 13px;
-    text-align: center;
-    font-weight: bold;
-    align-items: center;
-    padding: 10px 10px 10px 0; }
-  .blog__contenedor .mas__tercero {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 0 18px 0;
-    max-width: 1320px;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/PRODUCTOS.jpeg);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10%; }
+  padding: 30px 8px;
+}
+.blog__contenedor .mas__principal {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 18px 0;
+  max-width: 1320px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../imagenes/entrenamiento.jpeg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10%;
+}
+.blog__contenedor .titulo__blog--principal {
+  margin-top: 20px;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+  color: #ffffff;
+}
+.blog__contenedor .blog-cont--description {
+  margin: 30px 15px 0 15px;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+  padding: 10px 10px 10px 0;
+}
+.blog__contenedor button {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: black;
+  background-color: white;
+}
+.blog__contenedor .mas__secundario {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 18px 0;
+  max-width: 1320px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../imagenes/nutricionIFRAME.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10%;
+}
+.blog__contenedor .blog-cont--description {
+  margin: 30px 15px 0 15px;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+  padding: 10px 10px 10px 0;
+}
+.blog__contenedor .mas__tercero {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 18px 0;
+  max-width: 1320px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../imagenes/PRODUCTOS.jpeg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10%;
+}
 
 /* Estilos footer*/
 .footer {
-  background-color: black; }
-  .footer .footer-sm {
-    background-color: #000000;
-    color: white; }
-  .footer .col {
-    width: 100%; }
-  .footer a {
-    color: white; }
-  .footer i {
-    font-size: 1rem;
-    margin-left: 1rem; }
-  .footer .footer-sm__icons {
-    text-align: center;
-    padding: 1.5rem 0; }
-  .footer .footer-bottom {
-    padding: 1.5rem 0; }
-  .footer .footer-bottom__copyright {
-    text-align: center;
-    color: gray;
-    font-weight: 400; }
-  .footer .footer-bottom__copyright a {
-    color: #ff4000;
-    text-decoration: none; }
-  .footer .footer-bottom__copyright a:hover {
-    color: #ffffff;
-    text-decoration: underline; }
+  background-color: black;
+}
+.footer .footer-sm {
+  background-color: #000000;
+  color: white;
+}
+.footer .col {
+  width: 100%;
+}
+.footer a {
+  color: white;
+}
+.footer i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+.footer .footer-sm__icons {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+.footer .footer-bottom {
+  padding: 1.5rem 0;
+}
+.footer .footer-bottom__copyright {
+  text-align: center;
+  color: gray;
+  font-weight: 400;
+}
+.footer .footer-bottom__copyright a {
+  color: #ff4000;
+  text-decoration: none;
+}
+.footer .footer-bottom__copyright a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
 
 /* Estilos pagina blog*/
 .contenedor__bloger {
@@ -264,69 +325,94 @@ button {
   background-color: #000000;
   justify-content: space-evenly;
   margin: 10px;
-  justify-items: center; }
-  .contenedor__bloger .carta__bl {
-    display: flex;
-    padding-left: 40px; }
-  .contenedor__bloger .logo__blog {
-    width: 150px;
-    height: 150px; }
-  .contenedor__bloger .carta__p {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: left;
-    padding: 0px 40px 0px 0px; }
-  .contenedor__bloger .bloger__p {
-    color: #ffffff; }
+  justify-items: center;
+}
+.contenedor__bloger .carta__bl {
+  display: flex;
+  padding-left: 40px;
+}
+.contenedor__bloger .logo__blog {
+  width: 150px;
+  height: 150px;
+}
+.contenedor__bloger .carta__p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+  padding: 0px 40px 0px 0px;
+}
+.contenedor__bloger .bloger__p {
+  color: #ffffff;
+}
 
 .blog__contenedor {
   display: flex;
   flex-direction: column;
   gap: 10px;
   background-color: #000000;
-  padding: 30px 8px; }
-  .blog__contenedor .blog__principal {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 0 18px 0;
-    max-width: 1320px;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/cetosis.jpeg);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10%; }
+  padding: 30px 8px;
+}
+.blog__contenedor .blog__principal {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 18px 0;
+  max-width: 1320px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../imagenes/cetosis.jpeg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10%;
+}
 
 .blog__secundario {
   width: 100%;
   margin: 0 auto;
   padding: 0 0 18px 0;
   max-width: 1320px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/ayuno-intermitente_0.jpg.webp);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../imagenes/ayuno-intermitente_0.jpg.webp);
   display: flex;
   flex-direction: column;
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10%; }
+  border-radius: 10%;
+}
 
 .blog__tercero {
   width: 100%;
   margin: 0 auto;
   padding: 0 0 18px 0;
   max-width: 1320px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/hidratacionweb.jpeg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../imagenes/hidratacionweb.jpeg);
   display: flex;
   flex-direction: column;
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10%; }
+  border-radius: 10%;
+}
 
 .body__blog {
-  background-color: #000000; }
+  background-color: #000000;
+}
 
 /*Estilos pagina servicios*/
 #hero2 {
@@ -336,97 +422,126 @@ button {
   justify-content: center;
   text-align: center;
   height: 30vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/imagenes/servicios.jpg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/imagenes/servicios.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover; }
-  #hero2 h1 {
-    font-size: 2.5em;
-    color: #ffffff;
-    text-align: center;
-    padding: 200 50px 10px 50px; }
-  #hero2 button {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-top: 10px;
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    color: black;
-    background-color: white; }
+  background-size: cover;
+}
+#hero2 h1 {
+  font-size: 2.5em;
+  color: #ffffff;
+  text-align: center;
+  padding: 200 50px 10px 50px;
+}
+#hero2 button {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: black;
+  background-color: white;
+}
 
 .serv__principal {
   width: 100%;
   margin: 0 auto;
   padding: 0 0 18px 0;
   max-width: 1320px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/nutricionIFRAME.png);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../imagenes/nutricionIFRAME.png);
   display: flex;
   flex-direction: column;
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10%; }
-  .serv__principal .serv-cont--description {
-    margin: 30px 15px 0 15px;
-    color: #ffffff;
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-    align-items: center;
-    padding: 10px 10px 10px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; }
+  border-radius: 10%;
+}
+.serv__principal .serv-cont--description {
+  margin: 30px 15px 0 15px;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+  padding: 10px 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .serv__secundario {
   width: 100%;
   margin: 0 auto;
   padding: 0 0 18px 0;
   max-width: 1320px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/WELLNESS.jpeg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../imagenes/WELLNESS.jpeg);
   display: flex;
   flex-direction: column;
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10%; }
-  .serv__secundario .serv-cont--description {
-    margin: 30px 15px 0 15px;
-    color: #ffffff;
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-    align-items: center;
-    padding: 10px 10px 10px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; }
+  border-radius: 10%;
+}
+.serv__secundario .serv-cont--description {
+  margin: 30px 15px 0 15px;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+  padding: 10px 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .serv__tercero {
   width: 100%;
   margin: 0 auto;
   padding: 0 0 18px 0;
   max-width: 1320px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/entrenamiento.jpeg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../imagenes/entrenamiento.jpeg);
   display: flex;
   flex-direction: column;
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10%; }
-  .serv__tercero .serv-cont--description {
-    margin: 30px 15px 0 15px;
-    color: #ffffff;
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-    align-items: center;
-    padding: 10px 10px 10px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; }
+  border-radius: 10%;
+}
+.serv__tercero .serv-cont--description {
+  margin: 30px 15px 0 15px;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+  padding: 10px 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 /*Estilos Pagina Productos*/
 #hero3 {
@@ -436,42 +551,57 @@ button {
   justify-content: center;
   text-align: center;
   height: 30vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/imagenes/PRODUCTOS.jpeg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/imagenes/PRODUCTOS.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover; }
-  #hero3 h1 {
-    font-size: 2.5em;
-    color: #ffffff;
-    text-align: center;
-    padding: 200 50px 10px 50px; }
-  #hero3 button {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-top: 10px;
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    color: black;
-    background-color: white; }
+  background-size: cover;
+}
+#hero3 h1 {
+  font-size: 2.5em;
+  color: #ffffff;
+  text-align: center;
+  padding: 200 50px 10px 50px;
+}
+#hero3 button {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: black;
+  background-color: white;
+}
 
 .intro__prod {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   justify-content: center;
-  justify-items: center; }
-  .intro__prod .p__prod {
-    color: orangered;
-    font-size: 20px;
-    padding: 4px 0px; }
+  justify-items: center;
+}
+.intro__prod .p__prod {
+  color: orangered;
+  font-size: 20px;
+  padding: 4px 0px;
+}
 
 .prod__principal {
   width: 100%;
   margin: 0 auto;
   padding: 0 0 18px 0;
   max-width: 1320px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/whey_taro.png);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../imagenes/whey_taro.png);
   background-position-y: center;
   background-position-x: center;
   display: flex;
@@ -479,32 +609,40 @@ button {
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10%; }
-  .prod__principal .titulo__prod--principal {
-    margin-top: 20px;
-    font-size: 40px;
-    text-align: center;
-    font-weight: bold;
-    align-items: center;
-    color: #ffffff; }
-  .prod__principal .prod-cont--description {
-    margin: 90px 15px 0 15px;
-    color: #ffffff;
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-    align-items: center;
-    padding: 10px 10px 10px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; }
+  border-radius: 10%;
+}
+.prod__principal .titulo__prod--principal {
+  margin-top: 20px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+  color: #ffffff;
+}
+.prod__principal .prod-cont--description {
+  margin: 90px 15px 0 15px;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+  padding: 10px 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .prod__secundario {
   width: 100%;
   margin: 0 auto;
   padding: 0 0 18px 0;
   max-width: 1320px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/whey_zero.png);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../imagenes/whey_zero.png);
   background-position-y: center;
   background-position-x: center;
   display: flex;
@@ -512,32 +650,40 @@ button {
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10%; }
-  .prod__secundario .titulo__prod--principal {
-    margin-top: 20px;
-    font-size: 40px;
-    text-align: center;
-    font-weight: bold;
-    align-items: center;
-    color: #ffffff; }
-  .prod__secundario .prod-cont--description {
-    margin: 90px 15px 0 15px;
-    color: #ffffff;
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-    align-items: center;
-    padding: 10px 10px 10px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; }
+  border-radius: 10%;
+}
+.prod__secundario .titulo__prod--principal {
+  margin-top: 20px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+  color: #ffffff;
+}
+.prod__secundario .prod-cont--description {
+  margin: 90px 15px 0 15px;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+  padding: 10px 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .prod__tercero {
   width: 100%;
   margin: 0 auto;
   padding: 0 0 18px 0;
   max-width: 1320px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/whey-vegan.png);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../imagenes/whey-vegan.png);
   background-position-y: center;
   background-position-x: center;
   display: flex;
@@ -545,25 +691,28 @@ button {
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10%; }
-  .prod__tercero .titulo__prod--principal {
-    margin-top: 20px;
-    font-size: 40px;
-    text-align: center;
-    font-weight: bold;
-    align-items: center;
-    color: #ffffff; }
-  .prod__tercero .prod-cont--description {
-    margin: 90px 15px 0 15px;
-    color: #ffffff;
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-    align-items: center;
-    padding: 10px 10px 10px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; }
+  border-radius: 10%;
+}
+.prod__tercero .titulo__prod--principal {
+  margin-top: 20px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+  color: #ffffff;
+}
+.prod__tercero .prod-cont--description {
+  margin: 90px 15px 0 15px;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+  padding: 10px 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 /*Estilos Pagina QS*/
 #qs__hero {
@@ -573,58 +722,73 @@ button {
   justify-content: space-around;
   text-align: center;
   height: 70vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/image/fondoweb.png);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../assets/image/fondoweb.png);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover; }
-  #qs__hero h1 {
-    font-size: 2.5em;
-    color: #ffffff;
-    text-align: center;
-    padding: 200 50px 10px 50px; }
-  #qs__hero .qs__p {
-    color: #ffffff;
-    margin: 10px;
-    font-size: 30px; }
-  #qs__hero button {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-top: 10px;
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    color: black;
-    background-color: white; }
+  background-size: cover;
+}
+#qs__hero h1 {
+  font-size: 2.5em;
+  color: #ffffff;
+  text-align: center;
+  padding: 200 50px 10px 50px;
+}
+#qs__hero .qs__p {
+  color: #ffffff;
+  margin: 10px;
+  font-size: 30px;
+}
+#qs__hero button {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: black;
+  background-color: white;
+}
 
 .box__qs--card {
   display: grid;
   grid-template-rows: 1fr 1fr;
   justify-items: center;
   gap: 20px;
-  background-color: #eeeeee; }
-  .box__qs--card .qs__t h1 {
-    font-size: 45px;
-    color: #000000;
-    padding: 10px 50px;
-    text-align: center; }
+  background-color: #eeeeee;
+}
+.box__qs--card .qs__t h1 {
+  font-size: 45px;
+  color: #000000;
+  padding: 10px 50px;
+  text-align: center;
+}
 
 .card__qs--img {
   display: flex;
-  justify-content: center; }
-  .card__qs--img .imagen__card__qs {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    padding: 10px; }
+  justify-content: center;
+}
+.card__qs--img .imagen__card__qs {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  padding: 10px;
+}
 
 .d__qs {
   padding: 0px 50px;
-  background-color: #eeeeee; }
-  .d__qs .p__qs {
-    text-align: center;
-    padding: 15px 30px;
-    font-size: 24px; }
+  background-color: #eeeeee;
+}
+.d__qs .p__qs {
+  text-align: center;
+  padding: 15px 30px;
+  font-size: 24px;
+}
 
 /*Estilos Pagina Faqs*/
 #faqs__hero {
@@ -634,97 +798,121 @@ button {
   justify-content: space-around;
   text-align: center;
   height: 70vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/faqshero.webp);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../imagenes/faqshero.webp);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover; }
-  #faqs__hero h1 {
-    font-size: 2.5em;
-    color: #ffffff;
-    text-align: center;
-    padding: 200 50px 10px 50px; }
-  #faqs__hero .qs__p {
-    color: #ffffff;
-    margin: 10px;
-    font-size: 30px; }
+  background-size: cover;
+}
+#faqs__hero h1 {
+  font-size: 2.5em;
+  color: #ffffff;
+  text-align: center;
+  padding: 200 50px 10px 50px;
+}
+#faqs__hero .qs__p {
+  color: #ffffff;
+  margin: 10px;
+  font-size: 30px;
+}
 
 .container__faqs {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 10px; }
-  .container__faqs .faqs__1 {
-    display: flex;
-    flex-direction: column;
-    background-color: #ff4000; }
-  .container__faqs .faqs__h {
-    font-size: 1.7em;
-    color: #000000;
-    margin: 10px 5px;
-    text-align: center; }
-  .container__faqs .faqs__1--description {
-    display: flex;
-    text-align: center;
-    margin: 6px 4px; }
+  gap: 10px;
+}
+.container__faqs .faqs__1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ff4000;
+}
+.container__faqs .faqs__h {
+  font-size: 1.7em;
+  color: #000000;
+  margin: 10px 5px;
+  text-align: center;
+}
+.container__faqs .faqs__1--description {
+  display: flex;
+  text-align: center;
+  margin: 6px 4px;
+}
 
 .faqs__2 {
   display: flex;
   flex-direction: column;
-  background-color: #2e2e2e; }
-  .faqs__2 .faqs__h2 {
-    font-size: 1.7em;
-    color: #ffffff;
-    margin: 10px 5px;
-    text-align: center; }
-  .faqs__2 .faqs__1--description2 {
-    display: flex;
-    text-align: center;
-    margin: 6px 4px;
-    color: #eeeeee; }
+  background-color: #2e2e2e;
+}
+.faqs__2 .faqs__h2 {
+  font-size: 1.7em;
+  color: #ffffff;
+  margin: 10px 5px;
+  text-align: center;
+}
+.faqs__2 .faqs__1--description2 {
+  display: flex;
+  text-align: center;
+  margin: 6px 4px;
+  color: #eeeeee;
+}
 
 .faqs__3 {
   display: flex;
   flex-direction: column;
-  background-color: #ff4000; }
-  .faqs__3 .faqs__h3 {
-    font-size: 1.7em;
-    color: #000000;
-    margin: 10px 5px;
-    text-align: center; }
-  .faqs__3 .faqs__1--description3 {
-    display: flex;
-    text-align: center;
-    margin: 6px 4px; }
+  background-color: #ff4000;
+}
+.faqs__3 .faqs__h3 {
+  font-size: 1.7em;
+  color: #000000;
+  margin: 10px 5px;
+  text-align: center;
+}
+.faqs__3 .faqs__1--description3 {
+  display: flex;
+  text-align: center;
+  margin: 6px 4px;
+}
 
 .faqs__4 {
   display: flex;
   flex-direction: column;
-  background-color: #2e2e2e; }
-  .faqs__4 .faqs__h4 {
-    font-size: 1.7em;
-    color: #ffffff;
-    margin: 10px 5px;
-    text-align: center; }
-  .faqs__4 .faqs__1--description4 {
-    display: flex;
-    text-align: center;
-    margin: 6px 4px;
-    color: #eeeeee; }
+  background-color: #2e2e2e;
+}
+.faqs__4 .faqs__h4 {
+  font-size: 1.7em;
+  color: #ffffff;
+  margin: 10px 5px;
+  text-align: center;
+}
+.faqs__4 .faqs__1--description4 {
+  display: flex;
+  text-align: center;
+  margin: 6px 4px;
+  color: #eeeeee;
+}
 
 /*Estilos Pagina Login*/
 .titulo__login {
   background-color: #000000;
   padding: 20px 2px 20px 2px;
-  text-align: center; }
-  .titulo__login .conocenos__p1--login {
-    color: #ffffff;
-    font-size: 23px;
-    font-weight: 400;
-    align-items: center;
-    justify-content: center; }
-  .titulo__login .conocenos__p1--2login {
-    color: orangered;
-    font-size: 25px;
-    font-weight: 400; }
+  text-align: center;
+}
+.titulo__login .conocenos__p1--login {
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+}
+.titulo__login .conocenos__p1--2login {
+  color: orangered;
+  font-size: 25px;
+  font-weight: 400;
+}
 
 .container__login {
   display: flex;
@@ -733,42 +921,53 @@ button {
   justify-content: center;
   max-width: 100%;
   height: 50vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/image/fondoweb.png);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../assets/image/fondoweb.png);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover; }
-  .container__login .legend__login {
-    font-size: 20px;
-    margin: 20px;
-    padding: 0px 20px;
-    color: #eeeeee; }
-  .container__login .legend__nombre {
-    font-size: 20px;
-    margin: 20px;
-    padding: 0px 20px;
-    color: #eeeeee; }
-  .container__login .legend__correo {
-    font-size: 20px;
-    margin: 20px;
-    padding: 0px 20px;
-    color: #eeeeee; }
-  .container__login .legend__Hm {
-    font-size: 20px;
-    margin: 20px;
-    padding: 0px 20px;
-    color: #eeeeee; }
-  .container__login .boton__login {
-    font-size: 1em;
-    font-weight: bold;
-    margin: 5px 0px 5px 35px;
-    padding: 10px 10px;
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    color: black;
-    background-color: white;
-    display: flex;
-    flex-direction: column; }
+  background-size: cover;
+}
+.container__login .legend__login {
+  font-size: 20px;
+  margin: 20px;
+  padding: 0px 20px;
+  color: #eeeeee;
+}
+.container__login .legend__nombre {
+  font-size: 20px;
+  margin: 20px;
+  padding: 0px 20px;
+  color: #eeeeee;
+}
+.container__login .legend__correo {
+  font-size: 20px;
+  margin: 20px;
+  padding: 0px 20px;
+  color: #eeeeee;
+}
+.container__login .legend__Hm {
+  font-size: 20px;
+  margin: 20px;
+  padding: 0px 20px;
+  color: #eeeeee;
+}
+.container__login .boton__login {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 5px 0px 5px 35px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
 
 /*ESTILO DESKTOP INICIO*/
 @media (min-width: 800px) {
@@ -776,89 +975,124 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 20px 10px; }
+    padding: 20px 10px;
+  }
   .intro__yb {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+  }
   .text__conocenos {
-    font-size: 50px; }
+    font-size: 50px;
+  }
   .conocenos__p1 {
     color: #ffffff;
     font-size: 30px;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+  }
   .conocenos__p1--2 {
     color: orangered;
-    font-size: 40px; }
+    font-size: 40px;
+  }
   .logo__blog {
-    width: 300px; }
+    width: 300px;
+  }
   .carta__p {
-    text-align: center; }
+    text-align: center;
+  }
   .conocenos__intro {
     background-color: black;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0px; }
+    padding: 20px 0px;
+  }
   #hero2 {
-    height: 50vh; }
+    height: 50vh;
+  }
   #hero3 {
-    height: 50vh; }
+    height: 50vh;
+  }
   .logo__blog {
     width: 300px;
-    height: 300px; }
+    height: 300px;
+  }
   .p__prod {
-    font-size: 30px; }
+    font-size: 30px;
+  }
   #qs__hero {
-    height: 50vh; }
+    height: 50vh;
+  }
   .box__qs--card {
-    grid-template-columns: 1fr 1fr; }
+    grid-template-columns: 1fr 1fr;
+  }
   .container__faqs {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr; }
+    grid-template-rows: 1fr 1fr;
+  }
   .faqs__3 {
-    background-color: #2e2e2e; }
+    background-color: #2e2e2e;
+  }
   .faqs__4 {
-    background-color: #ff4000; }
+    background-color: #ff4000;
+  }
   .faqs__1--description3 {
-    color: #eeeeee; }
+    color: #eeeeee;
+  }
   .faqs__1--description4 {
-    color: #2e2e2e; }
+    color: #2e2e2e;
+  }
   .faqs__h3 {
-    color: #ffffff; }
+    color: #ffffff;
+  }
   .faqs__h4 {
-    color: #000000; }
+    color: #000000;
+  }
   .titulo__login {
-    padding: 30px 5px 30px 5px; }
+    padding: 30px 5px 30px 5px;
+  }
   .container__login {
-    height: 90vh; }
+    height: 90vh;
+  }
   .legend__login {
-    font-size: 30px; }
+    font-size: 30px;
+  }
   .legend__nombre {
-    font-size: 30px; }
+    font-size: 30px;
+  }
   .legend__correo {
-    font-size: 30px; }
+    font-size: 30px;
+  }
   .legend__Hm {
-    font-size: 30px; }
+    font-size: 30px;
+  }
   .conocenos__p1--login {
-    font-size: 40px; }
+    font-size: 40px;
+  }
   .conocenos__p1--2login {
-    font-size: 35px; }
+    font-size: 35px;
+  }
   .boton__login {
     font-size: 1em;
     font-weight: bold;
     margin: 10px 0px 10px 50px;
-    padding: 10px 10px; } }
+    padding: 10px 10px;
+  }
+}
 
 @keyframes logo_animado {
-  from { }
+  from {
+  }
   to {
-    transform: scale(1.1, 1.1); } }
+    transform: scale(1.1, 1.1);
+  }
+}
 
 .logo {
   width: 30%;
   animation-name: logo_animado;
   animation-duration: 1s;
   animation-delay: 2s;
-  animation-iteration-count: initial; }
+  animation-iteration-count: initial;
+}
