@@ -47,8 +47,8 @@ a {
   text-transform: uppercase;
   text-decoration: none;
 }
-:hover,
-:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: rgb(255, 64, 0);
   opacity: 2.65;
 }
