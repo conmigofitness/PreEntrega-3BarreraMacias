@@ -47,10 +47,10 @@ a {
   text-transform: uppercase;
   text-decoration: none;
 }
-.nav-link:hover,
-.nav-link:focus {
+:hover,
+:focus {
   color: rgb(255, 64, 0);
-  opacity: 0.65;
+  opacity: 2.65;
 }
 .form-control {
   height: 50px;
@@ -785,9 +785,12 @@ button {
 .d__qs {
   padding: 0px 50px;
   background-color: #eeeeee;
+  h3 {
+    text-align: center;
+  }
   .p__qs {
     text-align: center;
-    padding: 15px 30px;
+    padding: 5px 30px;
     font-size: 24px;
   }
 }

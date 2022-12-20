@@ -46,10 +46,10 @@ a {
   text-transform: uppercase;
   text-decoration: none; }
 
-.nav-link:hover,
-.nav-link:focus {
+:hover,
+:focus {
   color: #ff4000;
-  opacity: 0.65; }
+  opacity: 2.65; }
 
 .form-control {
   height: 50px;
@@ -619,9 +619,11 @@ button {
 .d__qs {
   padding: 0px 50px;
   background-color: #eeeeee; }
+  .d__qs h3 {
+    text-align: center; }
   .d__qs .p__qs {
     text-align: center;
-    padding: 15px 30px;
+    padding: 5px 30px;
     font-size: 24px; }
 
 /*Estilos Pagina Faqs*/
